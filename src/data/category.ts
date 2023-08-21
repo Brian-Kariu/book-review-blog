@@ -22,18 +22,18 @@ export const categories: Props[] = [
       "Explore the latest trends and ideas in fashion, food, home design, and more, and get inspiration for living your best life.",
   },
   {
-    title: "Personal",
-    slug: "personal",
-    color: "green",
-    description:
-      "Discover tips and strategies for self-improvement, personal development, and achieving your goals, and find resources to help you grow as a person.",
-  },
-  {
     title: "Travel",
     slug: "travel",
     color: "pink",
     description:
       "Plan your next adventure and get travel tips and inspiration from experienced travelers, with articles covering destinations, cultures, and more.",
+  },
+  {
+    title: "Self-help",
+    slug: "self-help",
+    color: "green",
+    description:
+      "Nourish your brain with various books from renowned authors.",
   },
   {
     title: "Design",

@@ -30,7 +30,7 @@ import Link from "@components/ui/link.astro";
             </div>
 
             <div class="mt-4 text-center">
-              <h3 class="text-sm text-gray-500"> {item.name}</h3>
+              <h3 class="text-sm "> {item.name}</h3>
             </div>
           </div>
         ))
@@ -38,12 +38,12 @@ import Link from "@components/ui/link.astro";
     </div>
 
     <div class="mx-auto max-w-xl text-center mt-14">
-      <p class="text-lg leading-relaxed text-gray-600">
+      <p class="text-lg leading-relaxed light:text-gray-600 dark:text-white">
         I am a Full Stack Engineer not afraid to get their feet wet. I am interested in AI/ML as well building backend systems.
         Ooh and i like reading 😅.
       </p>
       <div class="mt-8">
-        <Link href="/contact" style="primary">Get in touch</Link>
+        <Link href="/contact" class="dark:bg-gray-600 light:bg-black" style="primary">Get in touch</Link>
       </div>
     </div>
   </Container>
